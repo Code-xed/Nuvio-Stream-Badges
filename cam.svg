@@ -1,0 +1,17 @@
+<svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background square -->
+  <rect x="0" y="0" width="128" height="128" fill="#D32F2F" rx="8"/>
+  
+  <!-- Camera body -->
+  <rect x="28" y="38" width="72" height="52" rx="3" fill="none" stroke="#fff" stroke-width="3"/>
+  
+  <!-- Lens -->
+  <circle cx="64" cy="64" r="18" fill="none" stroke="#fff" stroke-width="2.5"/>
+  <circle cx="64" cy="64" r="10" fill="none" stroke="#fff" stroke-width="1.5"/>
+  
+  <!-- Flash -->
+  <rect x="42" y="28" width="12" height="8" rx="1" fill="#fff"/>
+  
+  <!-- Shutter indicator -->
+  <circle cx="64" cy="64" r="4" fill="#fff"/>
+</svg>
