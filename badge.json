@@ -4,7 +4,7 @@
       "borderColor": "#00000000",
       "groupId": "gs",
       "id": "s-bluray",
-      "imageURL": "https://raw.githubusercontent.com/Code-xed/Nuvio-Stream-Badges/main/bluray.svg",
+      "imageURL": "https://raw.githubusercontent.com/Code-xed/Nuvio-Stream-Badges/main/blu-ray.svg",
       "isEnabled": true,
       "name": "BluRay",
       "pattern": "(?i)\\b(?:bluray|blu-ray)\\b",
