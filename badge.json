@@ -1,0 +1,43 @@
+{
+  "groups": [
+    {
+      "id": "source-icons",
+      "name": "Source Icons",
+      "priority": 70
+    }
+  ],
+  "filters": [
+    {
+      "id": "bluray",
+      "groupId": "source-icons",
+      "name": "",
+      "pattern": "(?i)blu[ .-]?ray",
+      "imageURL": "https://raw.githubusercontent.com/Code-xed/Nuvio-Stream-Badges/main/bluray.svg",
+      "isEnabled": true
+    },
+    {
+      "id": "webdl",
+      "groupId": "source-icons",
+      "name": "",
+      "pattern": "(?i)web[ .-]?dl",
+      "imageURL": "https://raw.githubusercontent.com/Code-xed/Nuvio-Stream-Badges/main/webdl.svg",
+      "isEnabled": true
+    },
+    {
+      "id": "hdtv",
+      "groupId": "source-icons",
+      "name": "",
+      "pattern": "(?i)hdtv",
+      "imageURL": "https://raw.githubusercontent.com/Code-xed/Nuvio-Stream-Badges/main/hdtv.svg",
+      "isEnabled": true
+    },
+    {
+      "id": "cam",
+      "groupId": "source-icons",
+      "name": "",
+      "pattern": "(?i)cam|hdcam|telesync|ts",
+      "imageURL": "https://raw.githubusercontent.com/Code-xed/Nuvio-Stream-Badges/main/cam.svg",
+      "isEnabled": true
+    }
+  ]
+}
