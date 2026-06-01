@@ -1,43 +1,66 @@
 {
-  "groups": [
-    {
-      "id": "source-icons",
-      "name": "Source Icons",
-      "priority": 70
-    }
-  ],
   "filters": [
     {
-      "id": "bluray",
-      "groupId": "source-icons",
-      "name": "",
-      "pattern": "(?i)blu[ .-]?ray",
+      "borderColor": "#00000000",
+      "groupId": "gs",
+      "id": "s-bluray",
       "imageURL": "https://raw.githubusercontent.com/Code-xed/Nuvio-Stream-Badges/main/bluray.svg",
-      "isEnabled": true
+      "isEnabled": true,
+      "name": "BluRay",
+      "pattern": "(?i)\\b(?:bluray|blu-ray)\\b",
+      "tagColor": "#00000000",
+      "tagStyle": "filled and bordered",
+      "textColor": "#FFFFFF",
+      "type": "filter"
     },
     {
-      "id": "webdl",
-      "groupId": "source-icons",
-      "name": "",
-      "pattern": "(?i)web[ .-]?dl",
+      "borderColor": "#00000000",
+      "groupId": "gs",
+      "id": "s-webdl",
       "imageURL": "https://raw.githubusercontent.com/Code-xed/Nuvio-Stream-Badges/main/webdl.svg",
-      "isEnabled": true
+      "isEnabled": true,
+      "name": "WEB-DL",
+      "pattern": "(?i)\\b(?:web[-_. ]?dl|webdl)\\b",
+      "tagColor": "#00000000",
+      "tagStyle": "filled and bordered",
+      "textColor": "#FFFFFF",
+      "type": "filter"
     },
     {
-      "id": "hdtv",
-      "groupId": "source-icons",
-      "name": "",
-      "pattern": "(?i)hdtv",
+      "borderColor": "#00000000",
+      "groupId": "gs",
+      "id": "s-hdtv",
       "imageURL": "https://raw.githubusercontent.com/Code-xed/Nuvio-Stream-Badges/main/hdtv.svg",
-      "isEnabled": true
+      "isEnabled": true,
+      "name": "HDTV",
+      "pattern": "(?i)\\bhdtv\\b",
+      "tagColor": "#00000000",
+      "tagStyle": "filled and bordered",
+      "textColor": "#FFFFFF",
+      "type": "filter"
     },
     {
-      "id": "cam",
-      "groupId": "source-icons",
-      "name": "",
-      "pattern": "(?i)cam|hdcam|telesync|ts",
+      "borderColor": "#00000000",
+      "groupId": "gs",
+      "id": "s-cam",
       "imageURL": "https://raw.githubusercontent.com/Code-xed/Nuvio-Stream-Badges/main/cam.svg",
-      "isEnabled": true
+      "isEnabled": true,
+      "name": "CAM",
+      "pattern": "(?i)\\b(?:cam|hdcam|telesync|ts)\\b",
+      "tagColor": "#00000000",
+      "tagStyle": "filled and bordered",
+      "textColor": "#FFFFFF",
+      "type": "filter"
+    }
+  ],
+  "groups": [
+    {
+      "borderColor": "#00000000",
+      "color": "#FFFFFF",
+      "id": "gs",
+      "isExpanded": true,
+      "name": "Source",
+      "priority": 50
     }
   ]
 }
