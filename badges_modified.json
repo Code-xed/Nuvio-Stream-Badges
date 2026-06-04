@@ -20,7 +20,7 @@
       "imageURL": "https://raw.githubusercontent.com/ngreyx1/badges/refs/heads/main/images-white/mono-bluray.png",
       "isEnabled": true,
       "name": "BluRay",
-      "pattern": "(?i)\b(?:bluray|blu-ray|bdrip|bd-rip|bdmv|bdmux|bd[ ._-]?encode|bd)\b",
+      "pattern": "(?i)^(?=.*(?:bluray|blu-ray|bdrip|bd-rip|bdmv|bdmux|bd[ ._-]?encode|\bbd\b))(?!.*remux).*",
       "tagColor": "#495057",
       "tagStyle": "filled",
       "textColor": "#FFBE01",
